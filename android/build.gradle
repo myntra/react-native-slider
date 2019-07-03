@@ -46,5 +46,5 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.android.support:appcompat-v7:$versions.supportLibVersion"
-    implementation 'com.facebook.react:react-native:+'
+    implementation project(':react-native')
 }
