@@ -54,6 +54,6 @@ repositories {
 
 dependencies {
   //noinspection GradleDynamicVersion
-  api "androidx.appcompat:appcompat:$versions.supportLibVersion"
+  api "androidx.appcompat:appcompat:$versions.androidXSupportLibVersion"
   api project(':react-native')
 }
